@@ -1,0 +1,12 @@
+.vs/
+x64/
+ARM64/
+Debug/
+Release/
+*.vcxproj.user
+*.obj
+*.pdb
+*.idb
+*.exe
+*.tlog
+.DS_Store

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\input">
+      <UniqueIdentifier>{6f6d10d0-4518-4926-a82d-7e9da532208f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\input">
+      <UniqueIdentifier>{bba1b380-ff40-40c3-a238-9804492db9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\screen">
+      <UniqueIdentifier>{7d8b5f62-f8ea-47de-a9c2-9d989c959887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\static_data">
+      <UniqueIdentifier>{3f857060-7fd4-4036-bf8d-a1e3a2c2e821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\static_data">
+      <UniqueIdentifier>{28e6b469-109f-4528-a216-3d894632fbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\screen">
+      <UniqueIdentifier>{18d15e00-2ba4-4fbc-94a1-1570ef45b798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\service">
+      <UniqueIdentifier>{87f1ca83-66ef-492a-9a2c-2b21d3551a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\service">
+      <UniqueIdentifier>{af093ac7-f68b-44f2-b63c-b59c61e88c9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="schedule.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="subject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard_event.cpp">
+      <Filter>소스 파일\input</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_event.cpp">
+      <Filter>소스 파일\input</Filter>
+    </ClCompile>
+    <ClCompile Include="console_input.cpp">
+      <Filter>소스 파일\input</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>소스 파일\service</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_search_handler.cpp">
+      <Filter>소스 파일\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="static_data.cpp">
+      <Filter>소스 파일\static_data</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>소스 파일\screen</Filter>
+    </ClCompile>
+    <ClCompile Include="screen_select_schedule_handler.cpp">
+      <Filter>소스 파일\screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="schedule.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="subject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="console_input.h">
+      <Filter>헤더 파일\input</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_event.h">
+      <Filter>헤더 파일\input</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_event.h">
+      <Filter>헤더 파일\input</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>헤더 파일\service</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_search_handler.h">
+      <Filter>헤더 파일\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="static_data.h">
+      <Filter>헤더 파일\static_data</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>헤더 파일\screen</Filter>
+    </ClInclude>
+    <ClInclude Include="screen_select_schedule_handler.h">
+      <Filter>헤더 파일\screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

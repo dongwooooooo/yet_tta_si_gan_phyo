@@ -1,0 +1,13 @@
+# Source files are CP949 (Visual Studio, Korean locale). Stored as UTF-8 in the repo
+# so GitHub renders Korean; converted back to CP949 with CRLF on checkout.
+*.cpp working-tree-encoding=CP949 eol=crlf
+*.h   working-tree-encoding=CP949 eol=crlf
+*.ixx working-tree-encoding=CP949 eol=crlf
+src/*.txt working-tree-encoding=CP949 eol=crlf
+
+*.sln      text eol=crlf
+*.vcxproj* text eol=crlf
+
+*.pdf  binary
+*.hwp  binary
+*.pptx binary
